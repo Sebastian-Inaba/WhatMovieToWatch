@@ -49,6 +49,13 @@ The project demonstrates component-based architecture, state management with Rea
 
 ---
 
+## Attribution
+This product uses the [TMDB API](https://www.themoviedb.org/documentation/api) but is not endorsed or certified by TMDB.
+Movie and TV data provided by [TMDB](https://www.themoviedb.org).
+
+Embedded videos are provided through the [YouTube Embed API](https://developers.google.com/youtube/iframe_api_reference).
+All video content belongs to their respective creators and copyright holders.
+
 ## License
 
 MIT License
