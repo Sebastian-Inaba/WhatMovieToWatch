@@ -2,6 +2,8 @@
 
 **By Sebastian Inaba**
 
+**Live Demo at:** https://sebastian-inaba.github.io/WhatMovieToWatch/ 
+
 A small, front-end focused web application built with React, TypeScript, and Vite.  
 The project demonstrates component-based architecture, state management with React hooks, and basic styling with CSS. I made it for when i want to quickly find a movie to watch.
 
