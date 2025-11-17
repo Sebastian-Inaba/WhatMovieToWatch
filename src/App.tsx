@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Movies } from './components/movies';
-import { TopRatedMovies } from './components/topRatedMovies';
-import { ClickedMovie } from './components/clickedMovie';
-import { RandomMovie } from './components/randomMovie';
-import { Menu } from './components/menu';
+import { Movies } from './components/Movies';
+import { TopRatedMovies } from './components/TopRatedMovies';
+import { ClickedMovie } from './components/ClickedMovie';
+import { RandomMovie } from './components/RandomMovie';
+import { Menu } from './components/Menu';
 import { Footer } from './components/Attribution';
 import './App.css';
 
@@ -12,7 +12,7 @@ function App() {
     const [randomKey, setRandomKey] = useState<number>(0); // randomKey is used to re use the RandomMovie component
 
     return (
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
             <div className="App">
                 <header className="navMenu">
                     <Menu
